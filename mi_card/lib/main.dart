@@ -22,9 +22,11 @@ var myName = Text(
 var jobTitle = Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
-                  color: Colors.tealAccent[400],
+                  color: Colors.teal.shade100,
                   fontSize: 20.0,
                   fontFamily: 'SourceSansPro-SemiBold',
+                  letterSpacing: 2.5,
+                  fontWeight: FontWeight.bold,
                 ),
               ); 
 
