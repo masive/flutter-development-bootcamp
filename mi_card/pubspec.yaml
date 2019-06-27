@@ -59,6 +59,9 @@ flutter:
     - family: IndieFlower
       fonts:
         - asset: fonts/IndieFlower.ttf
+    - family: SourceSansPro-SemiBold
+      fonts:
+        - asset: fonts/SourceSansPro-SemiBold.ttf
 
   #
   # For details regarding fonts from package dependencies,

@@ -10,7 +10,7 @@ var myPicture = CircleAvatar(
 );
 
 var myName = Text(
-    'My Name',
+    'Pavel Anchev',
     style: TextStyle(
               color: Colors.white,
               fontSize: 40.0,
@@ -20,10 +20,11 @@ var myName = Text(
 );
 
 var jobTitle = Text(
-                'Flutter Developer',
+                'FLUTTER DEVELOPER',
                 style: TextStyle(
                   color: Colors.tealAccent[400],
                   fontSize: 20.0,
+                  fontFamily: 'SourceSansPro-SemiBold',
                 ),
               ); 
 
