@@ -10,7 +10,7 @@ var myPicture = CircleAvatar(
 );
 
 var myName = Text(
-    'Pavel Anchev',
+    'User Name',
     style: TextStyle(
               color: Colors.white,
               fontSize: 40.0,
@@ -35,6 +35,50 @@ var deviderLine = Divider(
                     indent: 200.0,
                   );
 
+var phoneContainer = Container(
+                      color: Colors.white,
+                      width: 225.0,
+                      padding: EdgeInsets.all(10.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          Icon(
+                            Icons.phone,
+                            color: Colors.teal.shade300,
+                          ),
+                          SizedBox(width: 10.0,),
+                          Text(
+                            '+359 0894 123 456',
+                              style: TextStyle(
+                                color: Colors.teal.shade300, 
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
+
+var mail = Container(
+                      color: Colors.white,
+                      width: 225.0,
+                      padding: EdgeInsets.all(10.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: <Widget>[
+                          Icon(
+                            Icons.phone,
+                            color: Colors.teal.shade300,
+                          ),
+                          SizedBox(width: 10.0,),
+                          Text(
+                            'masive@abv.bg',
+                              style: TextStyle(
+                                color: Colors.teal.shade300, 
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -48,7 +92,7 @@ class MyApp extends StatelessWidget {
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    myPicture, myName, jobTitle, deviderLine
+                    myPicture, myName, jobTitle, deviderLine, phoneContainer, deviderLine, mail
                 ],
           ),
               ],
