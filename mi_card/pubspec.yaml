@@ -56,10 +56,10 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: IndieFlower
+    - family: Indie Flower
       fonts:
         - asset: fonts/IndieFlower.ttf
-    - family: SourceSansPro-SemiBold
+    - family: Source Sans Pro
       fonts:
         - asset: fonts/SourceSansPro-SemiBold.ttf
 
